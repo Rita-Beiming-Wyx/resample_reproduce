@@ -1,3 +1,17 @@
+
+# Run evaluation like DAPS
+gt_folder = input
+pred_folder = recon
+```
+python compute_metric.py \
+    --gt_folder results_GaussainDeblur_ffhq/input \
+    --pred_folder results_GaussainDeblur_ffhq/recon \
+    --output results_GaussainDeblur_ffhq/metrics_results.txt
+```
+
+
+
+
 # Solving Inverse Problems with Latent Diffusion Models via Hard Data Consistency (ICLR 2024)
 
 ![example](https://github.com/soominkwon/resample/blob/main/figures/resample_ex.png)
