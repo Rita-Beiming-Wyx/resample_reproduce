@@ -1,6 +1,6 @@
 
 # Run evaluation like DAPS
-gt_folder = input
+gt_folder = input;
 pred_folder = recon
 ```
 python compute_metric.py \
