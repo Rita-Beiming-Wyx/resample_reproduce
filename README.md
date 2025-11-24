@@ -62,6 +62,16 @@ Install dependencies via
 conda env create -f environment.yaml
 ```
 
+ImportError: cannot import name 'VectorQuantizer2' from 'taming.modules.vqvae.quantize' (/venv/LDM/lib/python3.8/site-packages/taming/modules/vqvae/quantize.py)
+
+```
+git clone https://github.com/CompVis/taming-transformers
+
+pip install -e taming-transformers
+```
+
+
+
 <br />
 
 ### 4) Inference
