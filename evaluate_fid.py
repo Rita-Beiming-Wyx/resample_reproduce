@@ -1,5 +1,5 @@
 import torch
-from data import ImageDataset
+from image_data import ImageDataset
 from torch.utils.data import DataLoader
 from torchvision.models import inception_v3
 from piq import FID
