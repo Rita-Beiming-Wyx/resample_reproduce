@@ -1,0 +1,18 @@
+conditioning:
+  main_sampler: resample
+  method: ps  # 原库默认写法，不要改
+  params:
+    scale: 0.3  # 可调，phase retrieval 推荐 0.3 或 0.5
+
+data:
+  name: ffhq 
+  root: ./data/samples
+
+measurement:
+  operator:
+    name: phase_retrieval
+    oversample: 16  # 传给 operator 的参数，可调（8/16/32）
+  noise:
+    name: gaussian
+    sigma: 0.01   # 可调；如无噪声实验可用 0.0
+
