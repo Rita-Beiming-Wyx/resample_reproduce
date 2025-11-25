@@ -31,7 +31,7 @@ from torch.utils.data import DataLoader
 from PIL import Image
 import torchvision.transforms as transforms
 
-from data import ImageDataset
+from image_data import ImageDataset
 from evaluate_fid import calculate_fid
 
 def load_images_from_folder(folder_path, resolution=256):
